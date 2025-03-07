@@ -1,0 +1,13 @@
+.login {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+}
+button {
+  cursor: pointer;
+}
+.left {
+  background-color: #2b2d42;
+}
+.right {
+  background-color: #5e548e;
+}

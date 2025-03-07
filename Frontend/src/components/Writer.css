@@ -1,0 +1,36 @@
+textarea {
+  padding: 4px;
+  background-color: #aaa1c8;
+  outline: none;
+  color: black;
+  font-size: 20px;
+  border: 3px solid white;
+}
+.main{
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background: radial-gradient(circle at center, #2b2d42, #5e548e, #be95c4);
+  min-height: 100vh; /* Ensures it covers the full page */
+  width: 100%;
+ 
+ 
+}
+
+.box {
+  background: #231942;
+  color: white;
+  max-width: 100%; /* Prevents stretching */
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  height: 20%;
+  min-height: 200px;
+  margin-top: 40px;
+}
+.para {
+  color: white;
+}
+.sel{
+     background: #231942;
+  color: white;
+  
+}
