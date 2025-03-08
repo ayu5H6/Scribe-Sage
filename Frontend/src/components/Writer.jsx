@@ -51,7 +51,7 @@ const Writer = () => {
   };
 
   const generateAnswer = async () => {
-    console.log("Backend URL:", import.meta.env.VITE_BACKEND_URL);
+   
 
     try {
       setLoader(true);
