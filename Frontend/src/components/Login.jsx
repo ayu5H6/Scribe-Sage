@@ -147,7 +147,7 @@ const Login = () => {
             </div>
 
             {/* Switch between Register/Login */}
-            <p className="text-center mt-6 text-sm text-gray-600">
+            <p className="text-center mt-6 text-sm reg-p">
               {isRegister
                 ? "Already have an account?"
                 : "Don't have an account?"}{" "}
@@ -156,7 +156,7 @@ const Login = () => {
                 onClick={() => setIsRegister(!isRegister)}
                 className="text-purple-600 font-medium hover:text-purple-500"
               >
-                <span className="underline cursor-pointer ">
+                <span className="underline cursor-pointer text-black ">
                   {isRegister ? "Sign In" : "Register"}
                 </span>
               </button>
