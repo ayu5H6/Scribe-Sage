@@ -1,10 +1,10 @@
 .home {
   margin-top: 0;
-  background: #333333;
+  background: #edf6f9;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .main-div {
-  color: black;
+  color: whitesmoke;
 
   display: grid;
 
@@ -24,18 +24,19 @@
 p,
 ul,
 button {
-  color: #28262b;
+  color: #fffffc;
 }
+
 .item {
-  background-color: #d5ccc7;
+  background-color: #af8f9b;
   border-radius: 20px;
-  box-shadow: 2px 3px 2px white;
+  box-shadow: 2px 3px 2px black;
 }
 .start {
-  background-color: #e6bccd;
+  background-color: #e07a5f;
 }
 .start:hover {
-  background: #d295bf;
+  background: #fda992;
 }
 .item1 {
   grid-area: 1/1/2/4;

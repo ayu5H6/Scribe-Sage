@@ -49,9 +49,9 @@ const Navbar = () => {
         </button>
 
         {open && (
-          <div ref={dropdownRef} className="absolute right-0 mt-2 p-0.5 bg-white text-black border rounded-md shadow-lg">
+          <div ref={dropdownRef} className="absolute right-0 mt-2 p-0.5 rounded-md shadow-lg">
             <button
-              className="  text-center hover:bg-gray-200 "
+              className="  text-center logout "
               onClick={handleLogout}
             >
               Logout

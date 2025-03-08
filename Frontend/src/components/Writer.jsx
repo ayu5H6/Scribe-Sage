@@ -148,7 +148,7 @@ const Writer = () => {
                 />
               </div>
               <button
-                className="bg-blue-200 w-full sm:w-1/2 p-2 rounded hover:bg-blue-400 "
+                className="bg-blue-600 w-full sm:w-1/2 p-2 rounded hover:bg-blue-400 "
                 disabled={loader}
                 onClick={generateAnswer}
               >
@@ -180,7 +180,7 @@ const Writer = () => {
               </div>
               <div className="w-full sm:w-1/2">
                 <button
-                  className="bg-purple-200 w-full p-2 rounded hover:bg-purple-400"
+                  className="bg-purple-600 w-full p-2 rounded hover:bg-purple-400"
                   onClick={copyToClipBoard}
                 >
                   Copy

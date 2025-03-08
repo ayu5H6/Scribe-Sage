@@ -42,7 +42,7 @@ const Home = () => {
           </div>
 
           <div className="item4 item bg-gray-800 p-6 rounded-lg shadow-md">
-            <h2 className="text-2xl font-semibold mb-3 text-green-900">
+            <h2 className="text-2xl font-semibold mb-3 text-lime-800">
               📖 Storytelling Made Easy
             </h2>
             <ul className="list-disc list-inside ">
@@ -65,10 +65,10 @@ const Home = () => {
             </ul>
           </div>
           <div className="item6 item bg-gray-800 p-6 rounded-lg shadow-md">
-            <h2 className="text-2xl font-semibold mb-3 text-pink-800">
+            <h2 className="text-2xl font-semibold mb-3 text-red-800">
               📌 How It Works
             </h2>
-            <ol className="list-decimal list-inside text-gray-900">
+            <ol className="list-decimal list-inside text-white">
               <li>Enter your idea or keywords</li>
               <li>Select the type of content (Poem, Caption, Story)</li>
               <li>Let AI generate a unique and creative piece</li>
@@ -77,7 +77,7 @@ const Home = () => {
           </div>
         </div>
         <div className="-mt-3 flex items-center justify-center ">
-          <button className=" p-3 mb-3 rounded-2xl cursor-pointer start" onClick={()=>navigate("/login")}>Start Now</button>
+          <button className=" p-3 mb-3 rounded-2xl cursor-pointer start  " onClick={()=>navigate("/login")}>Start Now</button>
         </div>
       </div>
     </>
